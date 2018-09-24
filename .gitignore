@@ -1,0 +1,6 @@
+# ignored folders
+.idea/*
+*/target/*
+
+# ignored files
+*.iml

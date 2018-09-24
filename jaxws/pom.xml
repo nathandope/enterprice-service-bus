@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>enterprise-service-bus</artifactId>
+        <groupId>dope.nathan</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jaxws</artifactId>
+    <packaging>jar</packaging>
+
+    <name>JAX-WS</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>dope.nathan</groupId>
+            <artifactId>ejbs</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>6.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
